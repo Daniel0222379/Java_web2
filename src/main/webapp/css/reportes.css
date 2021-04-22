@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px/1.4 Georgia, Serif;
+}
+#page-wrap {
+    margin: 50px;
+}
+p {
+    margin: 20px 0;
+}
+
+/*
+Generic Styling, for Desktops/Laptops
+*/
+#tb1 {
+    margin-top: 2%;
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Zebra striping */
+#colums:nth-of-type(odd) {
+    background: #eee;
+}
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/*Aqui controlamos el menu y el header*/
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+    font-size: 30px;
+}
+nav ul{
+    margin-top: 0%;
+    list-style: none;
+    background: #164884;
+    text-align: justify;
+
+
+
+}
+nav ul li{
+    margin-top: 0%;
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+    font-size: 20px;
+
+
+
+}
+ul li a{
+
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #112d4e;
+}
+/*Control de buscador*/
+
+
+div, fieldset{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+
+.cajabuscar {
+    float: none;
+    width: 100%;
+    max-width: 453px;
+    margin-bottom: 25px;
+    margin-top: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+#buscarform {
+    padding: 0;
+    float: left;
+    left: 2px;
+    clear: both;
+    width: 100%;
+    position: relative;
+
+}
+#buscarform fieldset { float: left }
+
+#buscarform .search {
+    font-size: 20px;
+    top: 0px;
+    color: #FFF;
+    background: #33BCF2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 9px;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+#buscarform fieldset { width: 100% }
+
+#s {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 2px solid rgb(20, 20, 20);
+    box-sizing: border-box;
+    height: 42px;
+}
+
+
+.button{
+    right: 0;
+    top: 0;
+    padding: 9px 0;
+    float: right;
+    border: 0;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    color: #a4a4a4;
+    transition: all 0.25s linear;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    border: 0;
+    vertical-align: top;
+}
